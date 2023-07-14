@@ -27,8 +27,8 @@ var config1 = {
 maxBodyLength: Infinity,
   url: 'https://api.monsterapi.ai/apis/add-task',
   headers: { 
-    'x-api-key': 'FFdiTXOlIe3XBAnM0THbTLnHJdliU3x44sY7g8ug', 
-    'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2OTE3MzMxNTUsImlhdCI6MTY4OTE0MTE1NSwic3ViIjoiN2I3ZjBmMTg1MWE4MmJjZGM0MTI2NWJhNGIwYmQwYzYifQ.IgglFGcfRE4VL_0ZHVU7EVPKt7uyJ_53KrpZqE_-njc', 
+    'x-api-key': key, 
+    'Authorization': token, 
     'Content-Type': 'application/json'
   },
   data : data1
